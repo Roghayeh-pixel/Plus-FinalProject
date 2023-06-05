@@ -1,0 +1,90 @@
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(src/images/arcticcloud.jpg);
+  background-size: cover;
+}
+
+h1 {
+  color: #5f6368;
+  font-size: 25px;
+  font-weight: 100;
+  line-height: 25px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+ul {
+  margin: 0;
+  margin-bottom: 15px;
+  padding: 0;
+}
+
+li {
+  list-style: none;
+  color: #5f6368;
+  font-size: 16px;
+  font-weight: 100;
+  line-height: 19px;
+  margin: 0;
+  padding: 0;
+}
+li:first-letter {
+  text-transform: capitalize;
+}
+small {
+  display: block;
+  margin: 0 auto;
+  max-width: 600px;
+  padding-left: 10px;
+}
+
+.weather-app {
+  background: rgb(248, 248, 239);
+  box-shadow: 2px 5px 5px rgba(0, 0, 0, 0.4);
+  max-width: 600px;
+  margin: 50px auto 15px;
+  padding: 20px;
+  border: 1px solid #dadce0;
+  border-radius: 20px;
+  max-height: fit-content;
+}
+
+.weather-temperature img {
+  margin-right: 15px;
+  height: 64px;
+  width: 64px;
+}
+
+.weather-temperature strong {
+  color: #242527;
+  font-size: 64px;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.weather-temperature .units {
+  position: relative;
+  font-size: 16px;
+  top: -34px;
+}
+
+.weather-temperature .active:hover {
+  text-decoration: none;
+}
+
+.weather-forecast {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.forecast-days {
+  font-size: 16px;
+  color: #242527;
+  opacity: 0.8;
+}
+.forecast-temperature {
+  font-size: 16px;
+  color: #242527;
+}
+.min-temp {
+  opacity: 0.6;
+}
